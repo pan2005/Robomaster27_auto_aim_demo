@@ -1,0 +1,17 @@
+{
+  "schema": "gimbal-controller-params-v1",
+  "created_at": "2026-10-01T20:01:31",
+  "params": {
+    "pid_kp": 120.0,
+    "pid_ki": 300.0,
+    "pid_integral_limit": 5.0,
+    "positive_friction": 734.3,
+    "positive_velocity": 102.1,
+    "negative_friction": 486.4,
+    "negative_velocity": 98.9,
+    "friction_blend_rpm": 2.5,
+    "friction_slew_per_s": 5000.0,
+    "zero_target_rpm": 0.5,
+    "integral_leak_tau_s": 0.1
+  }
+}

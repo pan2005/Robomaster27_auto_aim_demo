@@ -1,0 +1,43 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.user
+.DS_Store
+Thumbs.db
+
+# Python environments and caches
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# STM32/CMake build products
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.d
+
+# Terminal runtime output and private capture data
+/Tools/gimbal_terminal/aim_logs/
+/Tools/gimbal_terminal/calibration_data/*/images/
+/Tools/gimbal_terminal/calibration_data/*/previews/
+/Tools/gimbal_terminal/calibration_data/*/session.yaml
+/Tools/gimbal_terminal/extrinsic_data/*/*.png
+/Tools/gimbal_terminal/extrinsic_data/*/*.npz
+
+# Large experimental measurements and generated models
+/Experiments/experiment_index.sqlite3
+/Experiments/**/raw/
+/Experiments/**/*.mat
+
+# Miscellaneous generated output
+*.log
+

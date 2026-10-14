@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm"
+     viewBox="0 0 297 210">
+  <rect width="297" height="210" fill="white"/>
+  <!-- A4 landscape, 10 x 7 symmetric grid, 20 mm center spacing. -->
+  <g fill="black">
+    <circle cx="58.5" cy="45" r="5"/><circle cx="78.5" cy="45" r="5"/><circle cx="98.5" cy="45" r="5"/><circle cx="118.5" cy="45" r="5"/><circle cx="138.5" cy="45" r="5"/><circle cx="158.5" cy="45" r="5"/><circle cx="178.5" cy="45" r="5"/><circle cx="198.5" cy="45" r="5"/><circle cx="218.5" cy="45" r="5"/><circle cx="238.5" cy="45" r="5"/>
+    <circle cx="58.5" cy="65" r="5"/><circle cx="78.5" cy="65" r="5"/><circle cx="98.5" cy="65" r="5"/><circle cx="118.5" cy="65" r="5"/><circle cx="138.5" cy="65" r="5"/><circle cx="158.5" cy="65" r="5"/><circle cx="178.5" cy="65" r="5"/><circle cx="198.5" cy="65" r="5"/><circle cx="218.5" cy="65" r="5"/><circle cx="238.5" cy="65" r="5"/>
+    <circle cx="58.5" cy="85" r="5"/><circle cx="78.5" cy="85" r="5"/><circle cx="98.5" cy="85" r="5"/><circle cx="118.5" cy="85" r="5"/><circle cx="138.5" cy="85" r="5"/><circle cx="158.5" cy="85" r="5"/><circle cx="178.5" cy="85" r="5"/><circle cx="198.5" cy="85" r="5"/><circle cx="218.5" cy="85" r="5"/><circle cx="238.5" cy="85" r="5"/>
+    <circle cx="58.5" cy="105" r="5"/><circle cx="78.5" cy="105" r="5"/><circle cx="98.5" cy="105" r="5"/><circle cx="118.5" cy="105" r="5"/><circle cx="138.5" cy="105" r="5"/><circle cx="158.5" cy="105" r="5"/><circle cx="178.5" cy="105" r="5"/><circle cx="198.5" cy="105" r="5"/><circle cx="218.5" cy="105" r="5"/><circle cx="238.5" cy="105" r="5"/>
+    <circle cx="58.5" cy="125" r="5"/><circle cx="78.5" cy="125" r="5"/><circle cx="98.5" cy="125" r="5"/><circle cx="118.5" cy="125" r="5"/><circle cx="138.5" cy="125" r="5"/><circle cx="158.5" cy="125" r="5"/><circle cx="178.5" cy="125" r="5"/><circle cx="198.5" cy="125" r="5"/><circle cx="218.5" cy="125" r="5"/><circle cx="238.5" cy="125" r="5"/>
+    <circle cx="58.5" cy="145" r="5"/><circle cx="78.5" cy="145" r="5"/><circle cx="98.5" cy="145" r="5"/><circle cx="118.5" cy="145" r="5"/><circle cx="138.5" cy="145" r="5"/><circle cx="158.5" cy="145" r="5"/><circle cx="178.5" cy="145" r="5"/><circle cx="198.5" cy="145" r="5"/><circle cx="218.5" cy="145" r="5"/><circle cx="238.5" cy="145" r="5"/>
+    <circle cx="58.5" cy="165" r="5"/><circle cx="78.5" cy="165" r="5"/><circle cx="98.5" cy="165" r="5"/><circle cx="118.5" cy="165" r="5"/><circle cx="138.5" cy="165" r="5"/><circle cx="158.5" cy="165" r="5"/><circle cx="178.5" cy="165" r="5"/><circle cx="198.5" cy="165" r="5"/><circle cx="218.5" cy="165" r="5"/><circle cx="238.5" cy="165" r="5"/>
+  </g>
+</svg>

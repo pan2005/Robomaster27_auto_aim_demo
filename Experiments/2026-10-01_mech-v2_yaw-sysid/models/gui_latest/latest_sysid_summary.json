@@ -1,0 +1,15 @@
+{
+  "training_csv": "E:/RM_STM32_Project/My_DM_M02_project/Project1/Experiments/2026-10-01_mech-v2_yaw-sysid/raw/prbs/yaw_prbs_amp1200_sw40ms_train_run01.csv",
+  "validation_csv": "E:/RM_STM32_Project/My_DM_M02_project/Project1/Experiments/2026-10-01_mech-v2_yaw-sysid/raw/prbs/yaw_prbs_amp1200_sw40ms_valid_run01.csv",
+  "axis": "yaw",
+  "output_signal": "speed_rpm",
+  "sample_time_s": 0.001,
+  "first_order_gain_rpm_per_command": 0.0065483399791919916,
+  "first_order_gain": 0.0065483399791919916,
+  "first_order_time_constant_s": 0.0016968848849008792,
+  "first_order_delay_s": 0.0055580000000000004,
+  "fit_first_order_percent": 59.857903210319044,
+  "fit_second_order_percent": 56.681501870758353,
+  "fit_state_space_2_percent": 57.817614715915177,
+  "transfer_function": "G(s) = 0.00654834 exp(-0.005558 s) / (0.0016968849 s + 1)"
+}

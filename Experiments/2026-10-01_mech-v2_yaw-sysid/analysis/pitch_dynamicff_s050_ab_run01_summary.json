@@ -1,0 +1,51 @@
+{
+  "schema": "pitch-control-comparison-v1",
+  "baseline_csv": "E:\\RM_STM32_Project\\My_DM_M02_project\\Project1\\Experiments\\2026-10-01_mech-v2_yaw-sysid\\raw\\pitch\\control\\pitch_pos15_gravityff_cosine_run01.csv",
+  "candidate_csv": "E:\\RM_STM32_Project\\My_DM_M02_project\\Project1\\Experiments\\2026-10-01_mech-v2_yaw-sysid\\raw\\pitch\\control\\pitch_pos15_dynamicff_s050_run01.csv",
+  "score_excludes_control_effort": true,
+  "baseline": {
+    "samples": 15000,
+    "tracking_rmse_deg": 1.6922819041277704,
+    "ramp_rmse_deg": 2.535740344075006,
+    "ramp_mae_deg": 2.1913699797683486,
+    "ramp_p95_abs_error_deg": 4.7179926295370205,
+    "ramp_max_abs_error_deg": 4.878320034482683,
+    "hold_rmse_deg": 0.6974075876779425,
+    "hold_mae_deg": 0.6404183125215767,
+    "hold_p95_abs_error_deg": 0.922759965595239,
+    "hold_max_abs_error_deg": 1.239125235260897,
+    "hold_steady_bias_deg": 0.45550642402341995,
+    "gyro_rms_rad_s": 0.25710096189379633,
+    "gyro_peak_rad_s": 0.9315311908721924,
+    "pid_current_rms": 615.4511909702236,
+    "total_current_rms": 610.3681960915068
+  },
+  "candidate": {
+    "samples": 15000,
+    "tracking_rmse_deg": 1.3569847638650645,
+    "ramp_rmse_deg": 1.966825918736096,
+    "ramp_mae_deg": 1.71442039582085,
+    "ramp_p95_abs_error_deg": 3.671347776001404,
+    "ramp_max_abs_error_deg": 3.7599770897399414,
+    "hold_rmse_deg": 0.7000547258573068,
+    "hold_mae_deg": 0.6609145283312542,
+    "hold_p95_abs_error_deg": 0.8789884421671185,
+    "hold_max_abs_error_deg": 0.9844787075298966,
+    "hold_steady_bias_deg": 0.42717408456572464,
+    "gyro_rms_rad_s": 0.254796090449578,
+    "gyro_peak_rad_s": 0.9272701144218445,
+    "pid_current_rms": 461.0447752659171,
+    "total_current_rms": 593.4896188364769
+  },
+  "improvement_percent": {
+    "tracking_rmse_deg": 19.813314758306976,
+    "ramp_rmse_deg": 22.435831281709568,
+    "ramp_mae_deg": 21.764904527802162,
+    "ramp_p95_abs_error_deg": 22.18411378990061,
+    "ramp_max_abs_error_deg": 22.924755588761517,
+    "hold_rmse_deg": -0.3795683078496512,
+    "hold_mae_deg": -3.200441868842872,
+    "hold_p95_abs_error_deg": 4.743543831562425,
+    "hold_max_abs_error_deg": 20.55050776827935
+  }
+}

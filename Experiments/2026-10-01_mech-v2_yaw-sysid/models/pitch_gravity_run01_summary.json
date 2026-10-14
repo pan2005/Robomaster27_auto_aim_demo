@@ -1,0 +1,45 @@
+{
+  "schema": "pitch-gravity-fit-v1",
+  "source_csv": "E:\\RM_STM32_Project\\My_DM_M02_project\\Project1\\Experiments\\2026-10-01_mech-v2_yaw-sysid\\raw\\pitch\\gravity\\pitch_gravity_m30_p30_step15_run01.csv",
+  "model": "u = a*sin(theta) + b*cos(theta) + c + f*direction",
+  "sin_coefficient": -2079.1387531613827,
+  "cos_coefficient": -4841.058882231025,
+  "gravity_amplitude_current": 5268.649642567379,
+  "gravity_phase_deg": -113.2425633302707,
+  "bias_current": 4618.602039307019,
+  "coulomb_friction_current": 645.3286629120865,
+  "rmse_current": 124.0550167115173,
+  "r_squared": 0.9752169354105013,
+  "matrix_rank": 4,
+  "settled_points": 10,
+  "tail_fraction": 0.5,
+  "full_model_condition_number": 35.44784764102957,
+  "recommended_model": "u_ff = kg*sin(theta) + bias",
+  "recommended_gravity_sin_coefficient": -2298.844758661494,
+  "recommended_bias_current": -99.36828794300213,
+  "recommended_friction_current": 670.9046666666667,
+  "recommended_fit_rmse_current": 16.550602114862382,
+  "recommended_fit_condition_number": 4.452444562061239,
+  "recommended_fit_rank": 2,
+  "opposite_direction_pair_count": 3,
+  "opposite_direction_pairs": [
+    {
+      "target_pitch_deg": -15.0,
+      "actual_pitch_deg": -15.823474960877487,
+      "gravity_current": 539.1246666666667,
+      "friction_current": 560.7873333333333
+    },
+    {
+      "target_pitch_deg": 0.0,
+      "actual_pitch_deg": 0.19984766829905815,
+      "gravity_current": -130.7926666666667,
+      "friction_current": 636.178
+    },
+    {
+      "target_pitch_deg": 15.0,
+      "actual_pitch_deg": 16.10946955021942,
+      "gravity_current": -725.4873333333334,
+      "friction_current": 815.7486666666667
+    }
+  ]
+}

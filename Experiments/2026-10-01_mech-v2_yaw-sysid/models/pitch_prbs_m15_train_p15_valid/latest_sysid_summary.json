@@ -1,0 +1,16 @@
+{
+  "training_csv": "Experiments/2026-10-01_mech-v2_yaw-sysid/raw/pitch/prbs/pitch_prbs_opm15_amp1200_sw30ms_train_run01.csv",
+  "validation_csv": "Experiments/2026-10-01_mech-v2_yaw-sysid/raw/pitch/prbs/pitch_prbs_opp15_amp1200_sw30ms_train_run01.csv",
+  "axis": "pitch",
+  "output_signal": "gyro_y_rad_s",
+  "input_signal": "output_current",
+  "sample_time_s": 0.001,
+  "first_order_gain_rpm_per_command": 0.0006172608113315536,
+  "first_order_gain": 0.0006172608113315536,
+  "first_order_time_constant_s": 0.032063681582074857,
+  "first_order_delay_s": 0.007,
+  "fit_first_order_percent": 47.3913339463862,
+  "fit_second_order_percent": 54.745925530915763,
+  "fit_state_space_2_percent": 28.233255986787164,
+  "transfer_function": "G(s) = 0.00061726081 exp(-0.007 s) / (0.032063682 s + 1)"
+}

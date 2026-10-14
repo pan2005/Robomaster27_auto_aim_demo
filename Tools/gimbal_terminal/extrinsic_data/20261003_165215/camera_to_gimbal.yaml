@@ -1,0 +1,70 @@
+model: robot_world_hand_eye
+provisional: true
+validation_policy: development_max_lt_0.8deg_rms_lt_0.5deg
+final_acceptance_max_rotation_error_deg: 0.5
+samples: 28
+used_samples: 26
+used_sample_numbers:
+- 1
+- 2
+- 3
+- 4
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+rejected_sample_numbers:
+- 5
+- 19
+mount_orientation_prior: camera_forward_to_gimbal_positive_x
+planar_normal_branch_corrected: true
+R_camera2gimbal:
+- -0.0051780104630504715
+- 0.010317122375653312
+- 0.9999333703770115
+- -0.9999247574633712
+- -0.011173571154887102
+- -0.005062679079828877
+- 0.011120594384438375
+- -0.9998843474590111
+- 0.010374202957544716
+t_camera2gimbal:
+- 0.054494860800297036
+- -0.01654559311651372
+- 0.08720120558756843
+R_board2world:
+- 0.35565985772672987
+- 0.028694184458639832
+- -0.9341748815827021
+- 0.9343777178822746
+- -0.03346012572963012
+- 0.3547093180496803
+- -0.021079514389903676
+- -0.9990280595480846
+- -0.038711630147475695
+t_board2world_m:
+- -1.0224989792741666
+- 0.22817869872684485
+- 0.23421285003575526
+holdout_samples: 5
+holdout_max_rotation_error_deg: 0.7315594678702239
+holdout_rms_rotation_error_deg: 0.47591417409783165
+holdout_rms_position_error_mm: 7.140161691805325
